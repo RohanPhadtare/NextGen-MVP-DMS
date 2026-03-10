@@ -1,0 +1,14 @@
+server:
+  port: 8085
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  mongodb:
+    uri: mongodb://localhost:27017/documentdb
+
+minio:
+  url: http://localhost:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucket: documents
